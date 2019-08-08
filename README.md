@@ -1,24 +1,3 @@
-bluemix-hello-node
-================================================================================
-
-This repo contains a complete sample of a node.js program that you can deploy
-on IBM's [Bluemix](https://bluemix.net/) PaaS, which is based on
-the [Cloud Foundry open source project](http://cloudfoundry.org/).
-
-Before jumping into the code, make sure you have an IBM ID, by
-registering at the
-[IBM ID registration](https://www.ibm.com/account/profile/us?page=reg)
-page.  You will need the IBM ID to login to Bluemix from the command line.
-
-You will also need to install the `cf` command-line tool, available
-here:
-
-* <https://github.com/cloudfoundry/cli/releases>
-
-At the time of this writing, the most recent version is `cf v6.1.1`.
-
-
-
 install the code for the sample program
 --------------------------------------------------------------------------------
 
