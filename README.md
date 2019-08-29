@@ -1,28 +1,5 @@
-bluemix-hello-node
-================================================================================
-
-A "Hello World" server in node.js sample for Bluemix.
-
-This repo contains a complete sample of a node.js program that you can deploy
-on IBM's [Bluemix](https://bluemix.net/) PaaS, which is based on
-the [Cloud Foundry open source project](http://cloudfoundry.org/).
-
-Before jumping into the code, make sure you have an IBM ID, by
-registering at the
-[IBM ID registration](https://www.ibm.com/account/profile/us?page=reg)
-page.  You will need the IBM ID to login to Bluemix from the command line.
-
-You will also need to install the `cf` command-line tool, available
-here:
-
-* <https://github.com/cloudfoundry/cli/releases>
-
-At the time of this writing, the most recent version is `cf v6.1.1`.
-
-
-
 install the code for the sample program
---------------------------------------------------------------------------------
+-----------------------------------------------------------------------------
 
 Click the magical button below to deploy the app.
 
@@ -241,18 +218,6 @@ For more information on the basics of pushing apps, see the Cloud Foundry docs:
 
 * *[Prepare to Deploy an Application](http://docs.cloudfoundry.org/devguide/deploy-apps/prepare-to-deploy.html)*
 * *[Deploy Applications](http://docs.cloudfoundry.org/devguide/deploy-apps/)*
-
-privacy notice
---------------------------------------------------------------------------------
-
-This web application includes code to track deployments to [IBM Bluemix](https://www.bluemix.net/) and other Cloud Foundry platforms. The following information is sent to a [Deployment Tracker](https://github.com/cloudant-labs/deployment-tracker) service on each deployment:
-
-* Application Name (`application_name`)
-* Space ID (`space_id`)
-* Application Version (`application_version`)
-* Application URIs (`application_uris`)
-
-This data is collected from the `VCAP_APPLICATION` environment variable in IBM Bluemix and other Cloud Foundry platforms. This data is used by IBM to track metrics around deployments of sample applications to IBM Bluemix to measure the usefulness of our examples, so that we can continuously improve the content we offer to you. Only deployments of sample applications that include code to ping the Deployment Tracker service will be tracked.
 
 ### disabling deployment tracking
 
