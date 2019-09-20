@@ -1,12 +1,6 @@
 install the code for the sample program
 -----------------------------------------------------------------------------
 
-Click the magical button below to deploy the app.
-
-[![Deploy to Bluemix](https://bluemix.net/deploy/button.png)](https://bluemix.net/deploy)
-
-or....
-
 From a command/shell terminal
 * `cd` into the parent directory you want to install the project in
 * `git clone` the project into a child directory
