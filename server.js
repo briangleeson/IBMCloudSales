@@ -10,6 +10,10 @@ app.get("/sayHello", function (request, response) {
   response.end("Hello " + user_name + "!");
 });
 
+app.get("/health", function (request, response) {
+  response.status(200).send("200 - Healthy");
+});
+
 app.listen(port);
 console.log("Listening on port ", port);
 
