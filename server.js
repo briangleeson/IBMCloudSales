@@ -11,7 +11,7 @@ app.get("/sayHello", function (request, response) {
 });
 
 app.get("/health", function (request, response) {
-  response.status(200).send("200 - Healthy");
+  response.status(200).send("200 - Very Healthy");
 });
 
 app.listen(port);
